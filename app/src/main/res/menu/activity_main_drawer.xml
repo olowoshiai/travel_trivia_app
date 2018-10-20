@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_planning"
+            android:icon="@drawable/icons_traveler"
+            android:title="@string/planning" />
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/icons_expensiveprice"
+            android:title="@string/expenses" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/icons_currency_exchange"
+            android:title="@string/coventer" />
+    </group>
+
+    <item android:title="@string/totExpenses">
+        <menu>
+            <item
+                android:id="@+id/nav_bills"
+                android:icon="@drawable/icons_information"
+                android:title="@string/bills" />
+        </menu>
+    </item>
+
+</menu>

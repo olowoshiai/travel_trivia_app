@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beautyyy"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen10dp"
+    tools:context="com.example.aisha.intrepidget.ThirdFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="150dp">
+
+        <TextView
+            android:id="@+id/tvCurrAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/crrAmount"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <EditText
+            android:id="@+id/etCurrencyAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/tvCurrAmount"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnPounds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvIwannaConv"
+            android:layout_marginStart="31dp"
+            android:background="@color/secondaryLightColor"
+            android:text="@string/pound" />
+
+        <Button
+            android:id="@+id/btnRuppes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnPounds"
+            android:layout_alignBottom="@+id/btnPounds"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/btnPounds"
+            android:background="@color/secondaryLightColor"
+            android:text="@string/rupees" />
+
+        <Button
+            android:id="@+id/btnEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnRuppes"
+            android:layout_alignBottom="@+id/btnRuppes"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/btnRuppes"
+            android:background="@color/secondaryLightColor"
+            android:text="@string/eur" />
+
+        <Button
+            android:id="@+id/btnYen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnPounds"
+            android:layout_below="@+id/btnPounds"
+            android:layout_marginTop="20dp"
+            android:background="@color/secondaryLightColor"
+            android:text="@string/yen" />
+
+        <Button
+            android:id="@+id/btnNaira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnYen"
+            android:layout_alignBottom="@+id/btnYen"
+            android:layout_alignStart="@+id/btnRuppes"
+            android:background="@color/secondaryLightColor"
+            android:text="@string/naira" />
+
+        <Button
+            android:id="@+id/btnCadDollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnNaira"
+            android:layout_alignBottom="@+id/btnNaira"
+            android:layout_alignStart="@+id/btnEuro"
+            android:background="@color/secondaryLightColor"
+            android:text="@string/cadollar" />
+
+        <TextView
+            android:id="@+id/tvCurrResulr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvResultIs"
+            android:layout_marginTop="24dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvIwannaConv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etCurrencyAmount"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@+id/btnPounds"
+            android:text="@string/iwannaconv"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tvResultIs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnYen"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="11dp"
+            android:text="@string/resultis"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="494dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dimen250dp">
+
+        <TextView
+            android:id="@+id/textViewCurrConverteer"
+            android:layout_width="395dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/currConverter"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/secondaryDarkColor" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="381dp"
+            android:layout_margin="@dimen/dimen20dp"
+            app:cardBackgroundColor="@color/cardlight">
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

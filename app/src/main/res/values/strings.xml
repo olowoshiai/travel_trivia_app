@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Intrepidget</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="myname">Aishat Olowoshile</string>
+    <string name="myemail">aishat.olowoshile@icloud.com</string>
+    <string name="totExpenses">Travel Information</string>
+    <string name="bills">Basics</string>
+    <string name="notes">Notes</string>
+    <string name="planning">Planning</string>
+    <string name="expenses">Expenses</string>
+    <string name="coventer">Currency Converter</string>
+    <string name="todotopfrag">TODO</string>
+    <string name="bio">
+        Name: Aishat Olowoshile \nInterests: Programming, reading,
+        travelling and cooking \nTitle: Student\nAspiration: Energy Scientist
+    </string>
+    <string name="french">French</string>
+    <string name="german">German</string>
+    <string name="english">English</string>
+    <string name="strcity">Destination(City Name):</string>
+    <string name="strduration">Duration(Length of travel):</string>
+    <string name="strMonthyear">Travel Time (month/year):</string>
+    <string name="strAdd">ADD</string>
+    <string name="strViewAll">View All</string>
+    <string name="strUpdate">Update</string>
+    <string name="stringId">ID of data to update/delete:</string>
+    <string name="strdelete">Delete</string>
+    <string name="strgetMY">Show Cities</string>
+    <string name="strGetMY">Show Cities in this MonthYear:</string>
+    <string name="food">Food</string>
+    <string name="budgetfood">Budget For Food</string>
+    <string name="accomodation">Hotel</string>
+    <string name="entartain">Social</string>
+    <string name="budgethotel">Budget for Hotel</string>
+    <string name="budgetsocial">Budget For Entertainment</string>
+    <string name="transport">Transportation</string>
+    <string name="budgetTransport">Budget for Transportation</string>
+    <string name="misc">Miscellaneous</string>
+    <string name="budgetmisc">Budget For Miscellaneous</string>
+    <string name="strtotal">Total Expenses</string>
+    <string name="budgettotal">Budget For Total Expenses</string>
+    <string name="currConverter">CURRENCY CONVERTER</string>
+    <string name="crrAmount">Dollar Amount:</string>
+    <string name="iwannaconv">I WANT TO CONVERT TO</string>
+    <string name="pound">GBP</string>
+    <string name="rupees">INR</string>
+    <string name="eur">EUR</string>
+    <string name="yen">YEN</string>
+    <string name="naira">NGN</string>
+    <string name="cadollar">CAD</string>
+    <string name="resultis">Exchange Result</string>
+    <string name="gallery">PHOTO GALLERY</string>
+    <string name="planninpage">TRIP PLANNING PAGE</string>
+</resources>

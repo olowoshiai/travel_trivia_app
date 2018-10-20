@@ -1,0 +1,336 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen10dp"
+    tools:context="com.example.aisha.intrepidget.SecondFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardlight"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dimen250dp"
+            android:layout_height="@dimen/dimen250dp"
+            android:layout_margin="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen64dp"
+                    android:layout_height="@dimen/dimen64dp"
+                    android:background="@drawable/cbacgroundyellow"
+                    android:padding="@dimen/dimen10dp"
+                    android:src="@drawable/ic_free_breakfast_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:text="@string/food"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1dp"
+                    android:layout_margin="@dimen/dimen10dp"
+                    android:background="@color/secondaryTextColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen5dp"
+                    android:text="@string/budgetfood"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/editTextFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dimen250dp"
+            android:layout_height="@dimen/dimen250dp"
+            android:layout_margin="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen64dp"
+                    android:layout_height="@dimen/dimen64dp"
+                    android:background="@drawable/cbackgrounddgray"
+                    android:padding="@dimen/dimen10dp"
+                    android:src="@drawable/ic_local_hotel_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:text="@string/accomodation"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1dp"
+                    android:layout_margin="@dimen/dimen10dp"
+                    android:background="@color/secondaryTextColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen5dp"
+                    android:text="@string/budgethotel"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/editTextHotel"
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardlight"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dimen250dp"
+            android:layout_height="@dimen/dimen250dp"
+            android:layout_margin="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen64dp"
+                    android:layout_height="@dimen/dimen64dp"
+                    android:background="@drawable/cbackgroudwarmpink"
+                    android:padding="@dimen/dimen10dp"
+                    android:src="@drawable/ic_beach_access_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:text="@string/entartain"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1dp"
+                    android:layout_margin="@dimen/dimen10dp"
+                    android:background="@color/secondaryTextColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen5dp"
+                    android:text="@string/budgetsocial"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/editTextSocial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dimen250dp"
+            android:layout_height="@dimen/dimen250dp"
+            android:layout_margin="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen64dp"
+                    android:layout_height="@dimen/dimen64dp"
+                    android:background="@drawable/cbackgrounddarkyellow"
+                    android:padding="@dimen/dimen10dp"
+                    android:src="@drawable/ic_drive_eta_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:text="@string/transport"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1dp"
+                    android:layout_margin="@dimen/dimen10dp"
+                    android:background="@color/secondaryTextColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen5dp"
+                    android:text="@string/budgetTransport"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/editTextTrans"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardlight"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dimen250dp"
+            android:layout_height="@dimen/dimen250dp"
+            android:layout_margin="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen64dp"
+                    android:layout_height="@dimen/dimen64dp"
+                    android:background="@drawable/cbackgroundgray"
+                    android:padding="@dimen/dimen10dp"
+                    android:src="@drawable/ic_local_atm_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:text="@string/misc"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1dp"
+                    android:layout_margin="@dimen/dimen10dp"
+                    android:background="@color/secondaryTextColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen5dp"
+                    android:text="@string/budgetmisc"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/editTextMisc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dimen250dp"
+            android:layout_height="@dimen/dimen250dp"
+            android:layout_margin="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen64dp"
+                    android:layout_height="@dimen/dimen64dp"
+                    android:background="@drawable/cbackgroundtotal"
+                    android:padding="@dimen/dimen10dp"
+                    android:src="@drawable/ic_sentiment_satisfied_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:text="@string/strtotal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1dp"
+                    android:layout_margin="@dimen/dimen10dp"
+                    android:background="@color/secondaryTextColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen5dp"
+                    android:text="@string/budgettotal"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/textViewTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+{
+  "information":
+  [
+    {
+      "country": "United States",
+      "language": "Primarily English",
+      "currency": "U.S. Dollars"
+    },
+
+    {
+      "country": "United Kingdom",
+      "language": "Primarily English",
+      "currency": "Pounds"
+    },
+    {
+      "country": "Nigerian",
+      "language": "Primarily English",
+      "currency": "Naira"
+    },
+    {
+      "country": "Honduras",
+      "language": "Spanish",
+      "currency": "Lempira"
+    },
+    {
+      "country": "Japan",
+      "language": "Japanese",
+      "currency": "Yen"
+    },
+    {
+      "country": "Luxembourg",
+      "language": "German; French; Luxembourgish",
+      "currency": "Euro"
+    },
+    {
+      "country": "Netherlands",
+      "language": "Primarily English",
+      "currency": "Dutch"
+    },
+    {
+      "country": "Paraguay",
+      "language": "Spanish; Guarani",
+      "currency": "Guarani"
+    },
+    {
+      "country": "Qatar",
+      "language": "Arabic",
+      "currency": "Qatari Riyal"
+    },
+    {
+      "country": "Phillipines",
+      "language": "Filipino; English",
+      "currency": "Phillipine Peso"
+    },
+    {
+      "country": "India",
+      "language": "Hindi; English",
+      "currency": "	Indian Rupee"
+    }
+
+  ]
+}
